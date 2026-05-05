@@ -1,5 +1,5 @@
 # CS690U-DGEB-project
-Clustering Algorithm on Foundation Model Embeddings vs. One-Hot Encoding for Biological Sequences
+Clustering Algorithms on Foundation Model Embeddings vs. One-Hot Encoding for Biological Sequences
 
 ------------------------------------------------------------------------
 
@@ -9,11 +9,13 @@ Project Structure
 CS690U-DGEB-PROJECT/
 ├── .venv/
 ├── Experiments/
-│   ├── ecoli_rna/
-│   └── mopb/
+│   ├── ecoli_rna/                # all experiment related to E. coli dataset
+│   └── mopb/                     # all experiment related to MopB dataset
 ├── Preprocessing/
-│   └── Encoded_Data/
-│   └── Encoding.ipynb
+│   └── Encoded_Data/             # folder storing all the encoded data
+│   └── Encoding.ipynb            # encoding scripts
+│   └── representation.ipynb      # scripts for UMAP plots
+├── Visualization/                # scripts for result plots and all the generated plot
 ├── requirements.txt
 └── .gitignore
 ```
@@ -45,17 +47,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-------------------------------------------------------------------------
-
-Data
-
--   
-
-------------------------------------------------------------------------
-
-Results / Outputs
-
--   
+5. run encoding.ipynb to generate the encoded data file
 
 ------------------------------------------------------------------------
 
