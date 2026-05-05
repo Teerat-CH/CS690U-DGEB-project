@@ -9,8 +9,8 @@ Project Structure
 CS690U-DGEB-PROJECT/
 ├── .venv/
 ├── Experiments/
-│   ├── ecoli_rna/                # all experiment related to E. coli dataset
-│   └── mopb/                     # all experiment related to MopB dataset
+│   ├── ecoli_rna/                # all experiments related to E. coli dataset
+│   └── mopb/                     # all experiments related to MopB dataset
 ├── Preprocessing/
 │   └── Encoded_Data/             # folder storing all the encoded data
 │   └── Encoding.ipynb            # encoding scripts
