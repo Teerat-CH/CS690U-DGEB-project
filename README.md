@@ -26,7 +26,7 @@ Setup
 1. Clone the repository
 
 ```
-git clone https://github.com/Teerat-CH/CS690U-DGEB-project.git
+git clone https://github.com/Teerat-CH/bio-seq-clustering.git
 ```
 
 2. Create virtual environment
